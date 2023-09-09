@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 500px;
+}
+
+/* NAVAR SECTION */
+.nav {
+    height: 10vh;
+    width: 100vw;
+    font-weight: 300;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+/* HERO SECTION */
+p3 {
+    margin-top: 333px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+
+}
+
+h6 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+
+}
+
+.main {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: linear-gradient(to right, #007bff, #87ceeb);
+}
+
+main-right {
+    max-width: 50%;
+}
+
+.main-left {
+
+    max-width: 50%;
+}
+
+.category {
+    color: rgb(15, 108, 196);
+}
+
+.category-list li:hover {
+    font-weight: 700;
+    color: rgb(15, 108, 196);
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 10vw;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    background: linear-gradient(to right, #007bff, #87ceeb);
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 33px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* FOOTER SECTION */
+.footer {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #007bff, #87ceeb);
+}
+
+.footer .section {
+    /* width: 15vh; */
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.footer .title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer .details {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.footer .quick-links {
+    margin-top: 20px;
+}
+
+.footer .quick-links li:hover {
+    font-weight: 700;
+}
+
+.footer .social-medias a {
+    padding: 10px;
+    border-radius: 200px;
+}
